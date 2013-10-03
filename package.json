@@ -1,0 +1,24 @@
+{
+  "name": "robust-determinant-4",
+  "version": "0.0.0",
+  "description": "Exactly computes the determinant of a 4x4 matrix",
+  "main": "det4.js",
+  "dependencies": {
+    "robust-scale": "~0.0.3",
+    "robust-determinant-3": "~0.0.0",
+    "robust-sum": "~0.0.2"
+  },
+  "devDependencies": {
+    "tape": "~1.1.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "robust",
+    "determinant",
+    "4"
+  ],
+  "author": "Richard Gaggioli",
+  "license": "BSD-2-Clause"
+}
