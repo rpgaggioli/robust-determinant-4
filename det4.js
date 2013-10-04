@@ -2,8 +2,8 @@
 
 var robustSum = require("robust-sum")
 var robustScale = require("robust-scale")
-//var det3 = require("robust-determinant-3")
-var det3 = require("../robust-determinant-3/det3.js")
+var det3 = require("robust-determinant-3")
+
 
 module.exports = robustDeterminant4
 
